@@ -1,0 +1,18 @@
+<div class="hours-table">
+                <div class="hour-row">
+                    <span class="day">Mon-Thu</span>
+                    <span class="time">08:00-18:00</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Fri</span>
+                    <span class="time">08:00-19:00</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Sun</span>
+                    <span class="time">9:00-18:00</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Sat</span>
+                    <span class="time">9:00-18:00</span>
+                </div>
+            </div>
