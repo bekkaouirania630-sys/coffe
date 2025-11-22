@@ -376,33 +376,81 @@ border-radius: 10px;
 box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 background-image: url(carte.png);
 }
-
-.fotter{
-    background-image: url("image8.png");
-    background-size: cover;
-    background-position: center;
-    padding: 60px 20px 20px 20px;
-    color: #ffffff; 
+ 
+.site-footer {
+   background-image: url('image8.png');
+    background-color: #1a1a1a; 
+    color: white; 
+    font-family: sans-serif; 
+    padding: 40px 0; 
     position: relative;
+
 }
-
-.foot {
-
-    height: 600px;
+.footer-content {
     display: flex;
-    justify-content: space-between; 
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto 40px auto; 
-    padding-bottom: 20px;
-    position: relative;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    max-width: 1300px;
+    margin: 0 auto; 
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
 }
-.fotter-content ul{
-    list-style: none;
-    padding: 0;
+
+
+.footer-nav ul {
+    list-style: none; 
+    padding: 0px 40px;
+    margin: auto;
+}
+
+.footer-nav li {
+    margin-bottom: 20px; 
+}
+.footer-nav a {
+    color: white;
+    text-decoration: none; 
+    font-size: 14px;
+    letter-spacing: 2.5px; 
+    
+}
+
+
+.footer-contact p {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.footer-contact p:first-child {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.logo-box {
+    border: 2.5px solid white;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    opacity: 0.7;
     margin: 0;
-   
 }
-
-
-
